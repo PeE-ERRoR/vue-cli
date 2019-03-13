@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Animation from './views/Animation.vue'
+import Login from './views/Login.vue'
+import Axios from './views/Axios.vue'
 
 
 Vue.use(Router)
@@ -21,7 +23,12 @@ export default new Router({
     {
       path: '/axios',
       name: 'axios',
-      component: Animation
+      component: Axios
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/about',

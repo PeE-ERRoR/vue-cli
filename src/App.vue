@@ -59,6 +59,14 @@
       >
         <span class="mr-2">Latest Release</span>
       </v-btn>
+      <v-btn flat icon color="blue lighten-1" to="/login">
+        <v-icon
+          large
+          color="grey"
+        >
+        person
+        </v-icon>
+      </v-btn>
     </v-toolbar>
     <v-content>
       <!-- <HelloWorld/> -->
