@@ -28,6 +28,12 @@
                   <v-text-field id="password" prepend-icon="lock" name="password" v-model="form.password" label="Password" type="password"></v-text-field>
                 </v-card-text>
                 <v-card-actions>
+                  <v-btn
+                    to="admin"
+                  >
+                    Admin
+                  </v-btn>
+
                   <v-spacer></v-spacer>
                   <v-btn type="submit" color="primary">Login</v-btn>
                 </v-card-actions>
@@ -36,9 +42,9 @@
           </v-flex>
 
           <v-dialog v-model="dialog" persistent max-width="600px">
-            <template v-slot:activator="{ on }">
+            <!-- <template v-slot:activator="{ on }">
               <v-btn color="primary" dark v-on="on">Open Dialog</v-btn>
-            </template>
+            </template> -->
             <v-card>
               <v-card-title>
                 <span class="headline">Register</span>
